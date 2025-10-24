@@ -161,6 +161,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-width: 320px; /* Reduced from default to 80% of typical width */
+    width: 100%;
 }
 
 .input-label {
@@ -180,8 +182,6 @@ body {
     outline: none;
     transition: all 0.3s ease;
     box-shadow: 0 0 10px rgba(204, 51, 51, 0.2);
-    width: 80%;
-    max-width: 320px;
 }
 
 .terminal-input:focus {
@@ -244,8 +244,6 @@ body {
     justify-content: center;
     gap: 10px;
     box-shadow: 0 0 15px rgba(204, 51, 51, 0.3);
-    width: 80%;
-    max-width: 320px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -331,10 +329,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: center; /* Centered vertically */
     min-height: 100vh;
     padding-left: 10px;
-    padding-top: 0;
+    padding-top: 0; /* Remove top padding for true centering */
 }
 
 .heart-container {
