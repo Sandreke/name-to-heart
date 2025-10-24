@@ -148,11 +148,11 @@ function createFloatingHearts() {
     }
     
     // Create hearts periodically
-    setInterval(createHeart, 3000);
+    setInterval(createHeart, 1500);
     
     // Create some initial hearts
-    for (let i = 0; i < 3; i++) {
-        setTimeout(createHeart, i * 1000);
+    for (let i = 0; i < 8; i++) {
+        setTimeout(createHeart, i * 500);
     }
 }
 
@@ -199,7 +199,7 @@ function createMatrixEffect() {
 
 // Function to generate random string
 function generateRandomString() {
-    const chars = '01♥♡❤️💕💖💗💘💝💞💟';
+    const chars = '01';
     let result = '';
     for (let i = 0; i < Math.random() * 20 + 10; i++) {
         result += chars.charAt(Math.floor(Math.random() * chars.length));

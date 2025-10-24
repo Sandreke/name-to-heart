@@ -383,6 +383,8 @@ body {
     font-size: 16px;
     font-family: 'Cascadia Mono', 'Courier New', 'Monaco', 'Menlo', monospace;
     color: #cc3333;
+    line-height: 1.0;
+    letter-spacing: 0px;
 }
 
 @keyframes terminalReveal {
@@ -445,7 +447,21 @@ body {
     }
     
     .heart-container {
-        font-size: 10px;
+        font-size: 14px;
+        line-height: 1.0;
+        overflow-x: auto;
+    }
+    
+    .heart-line-terminal {
+        font-size: 14px !important;
+    }
+    
+    .loading-text {
+        font-size: 14px;
+    }
+    
+    .final-message {
+        font-size: 14px;
     }
     
     .terminal-input {
@@ -461,15 +477,24 @@ body {
 
 @media (max-width: 480px) {
     .heart-container {
-        font-size: 8px;
+        font-size: 12px;
+        line-height: 0.9;
+    }
+    
+    .heart-line-terminal {
+        font-size: 12px !important;
+    }
+    
+    .loading-text {
+        font-size: 12px;
+    }
+    
+    .final-message {
+        font-size: 12px;
     }
     
     .main-title {
         font-size: 1.5rem;
-    }
-    
-    .subtitle {
-        font-size: 1rem;
     }
 }
 
