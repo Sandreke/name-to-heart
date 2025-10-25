@@ -450,13 +450,15 @@ body {
     }
     
     .heart-container {
-        font-size: 14px;
+        font-size: 13px; /* Reduced by 1px from 14px */
         line-height: 1.0;
         overflow-x: auto;
     }
     
     .heart-line-terminal {
-        font-size: 14px !important;
+        font-size: 13px !important; /* Reduced by 1px from 14px */
+        line-height: 1.0 !important;
+        letter-spacing: 0px !important;
     }
     
     .loading-text {
@@ -480,12 +482,15 @@ body {
 
 @media (max-width: 480px) {
     .heart-container {
-        font-size: 12px;
-        line-height: 0.9;
+        font-size: 11px; /* Reduced by 1px from 12px */
+        line-height: 1.0;
+        overflow-x: auto;
     }
     
     .heart-line-terminal {
-        font-size: 12px !important;
+        font-size: 11px !important; /* Reduced by 1px from 12px */
+        line-height: 1.0 !important;
+        letter-spacing: 0px !important;
     }
     
     .loading-text {
