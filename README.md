@@ -12,7 +12,7 @@ A web application that creates a romantic heart using the letters from your spec
 
 ## 🚀 Demo
 
-Visit the live application: [Vercel Link]
+Visit the live application: https://name-to-heart.vercel.app
 
 ## 🛠️ Technologies
 
