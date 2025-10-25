@@ -443,6 +443,36 @@ body {
     font-weight: 500;
 }
 
+/* Credits */
+.credits {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+}
+
+.credits a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.credits a:hover {
+    color: #cc3333;
+}
+
+@media (max-width: 480px) {
+    .credits {
+        font-size: 9px;
+        bottom: 8px;
+        right: 10px;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .main-title {
