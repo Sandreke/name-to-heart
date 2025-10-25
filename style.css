@@ -163,6 +163,7 @@ body {
     gap: 15px;
     max-width: 320px; /* Reduced from default to 80% of typical width */
     width: 100%;
+    margin: 0 auto; /* Center the container */
 }
 
 .input-label {
