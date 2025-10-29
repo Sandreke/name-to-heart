@@ -19,7 +19,6 @@ Visit the live application: https://name-to-heart.vercel.app
 - **HTML5** - Structure
 - **CSS3** - Styles and animations
 - **JavaScript** - Logic and effects
-- **Google Fonts** - Cascadia Mono and Outfit
 
 ## 📱 Responsive
 
@@ -40,10 +39,10 @@ Optimized for:
 
 ```bash
 # Clone the repository
-git clone [repo-url]
+git clone https://github.com/Sandreke/name-to-heart.git
 
 # Navigate to directory
-cd heart-with-name
+cd ./name-to-heart
 
 # Open index.html in your browser
 open index.html
@@ -55,7 +54,6 @@ open index.html
 ├── index.html          # Main page
 ├── style.css           # Styles and responsive
 ├── script.js           # Application logic
-├── vercel.json         # Vercel configuration
 ├── package.json        # Project configuration
 └── README.md           # This file
 ```
