@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>❤️ con tu nombre by Sandreke</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dedicatoria❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="terminal-container">
-        <!-- Efectos de fondo -->
-        <div class="matrix-effect"></div>
-        <div class="floating-hearts"></div>
-        
-        <!-- Header -->
-        <header class="terminal-header">
-            <div class="terminal-title">
-                <span class="prompt">sandreke@love-terminal:~$</span>
-                <span class="cursor-blink">_</span>
-            </div>
-            <h1 class="main-title">Corazón con...</h1>
-        </header>
+      <!-- Efectos de fondo -->
+      <div class="matrix-effect"></div>
+      <div class="floating-hearts"></div>
 
-        <!-- Input Section -->
-        <div class="input-section" id="inputSection">
-            <div class="input-container">
-                <input 
-                    type="text" 
-                    id="nombreInput" 
-                    placeholder="Tu nombre..." 
-                    maxlength="20"
-                    class="terminal-input"
-                >
-                <button id="formarBtn" class="terminal-button">
-                    <span class="button-text">Formar corazón</span>
-                    <span class="cursor-blink">_</span>
-                </button>
-            </div>
+      <!-- Header -->
+      <header class="terminal-header">
+        <div class="terminal-title">
+          <span class="prompt">aldairg-dev@love-terminal:~$</span>
+          <span class="cursor-blink">_</span>
+        </div>
+        <h1 class="main-title">Corazón con...</h1>
+      </header>
+
+      <!-- Input Section -->
+      <div class="input-section" id="inputSection">
+        <div class="input-container">
+          <input
+            type="text"
+            id="nombreInput"
+            placeholder="Tu nombre..."
+            maxlength="20"
+            class="terminal-input"
+          />
+          <button id="formarBtn" class="terminal-button">
+            <span class="button-text">Formar corazón</span>
+            <span class="cursor-blink">_</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Heart Display Section -->
+      <div class="heart-section hidden" id="heartSection">
+        <!-- Loading message fijo en la parte superior -->
+
+        <div class="loading-text" id="loadingText">
+          <span class="prompt">♥ Formando corazón... ♥</span>
+          <span class="cursor-blink">_</span>
+        </div>
+        <br />
+
+        <div class="heart-container" id="heartContainer">
+          <!-- El corazón aparecerá aquí -->
         </div>
 
-        <!-- Heart Display Section -->
-        <div class="heart-section hidden" id="heartSection">
-            <!-- Loading message fijo en la parte superior -->
-            <div class="loading-text" id="loadingText">
-                <span class="prompt">♥ Formando corazón... ♥</span>
-                <span class="cursor-blink">_</span>
-            </div>
-            <br>
-            
-            <div class="heart-container" id="heartContainer">
-                <!-- El corazón aparecerá aquí -->
-            </div>
-            
-            <div class="final-message hidden" id="finalMessage">
-                <span class="te-amo-text">Te amo</span><span class="lover-name"></span>
-            </div>
+        <div class="final-message hidden" id="finalMessage">
+          <span class="te-amo-text">Te amo</span
+          ><span class="lover-name"></span>
         </div>
-
+      </div>
     </div>
-
-    <!-- Credits -->
-    <div class="credits">
-        by <a href="https://github.com/Sandreke/name-to-heart" target="_blank" rel="noopener noreferrer">Sandreke</a>
-    </div>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
